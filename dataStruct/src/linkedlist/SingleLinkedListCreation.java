@@ -17,5 +17,7 @@ public class SingleLinkedListCreation {
 
     public static void main(String[] args){
 
+        SingleLinkedListCreation ll = new SingleLinkedListCreation();
+        
     }
 }
