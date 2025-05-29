@@ -32,10 +32,11 @@ public class SingleLinkedListCreation {
         //Step 3 head = newNode
         head = newNode;
     }
-    
+
     public static void main(String[] args){
 
         SingleLinkedListCreation ll = new SingleLinkedListCreation();
+        ll.addFirst(9);
         
     }
 }
