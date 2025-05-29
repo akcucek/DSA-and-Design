@@ -30,7 +30,7 @@ public class CountStrings {
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
-        int n = scan.nextLine();
+        int n = scan.nextInt();
 
         System.out.println(" Number of count : "+ count(n));
     }
