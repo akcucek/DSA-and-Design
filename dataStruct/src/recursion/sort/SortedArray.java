@@ -1,4 +1,4 @@
-package recursion;
+package recursion.sort;
 
 //Check Array is sorted or not using recursion
 public class SortedArray {

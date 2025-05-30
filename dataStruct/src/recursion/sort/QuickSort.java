@@ -1,4 +1,4 @@
-package recursion;
+package recursion.sort;
 
 public class QuickSort {
 }
