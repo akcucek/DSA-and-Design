@@ -1,5 +1,13 @@
 package tree.binarytree;
 
+/*
+        0
+       / \
+      4   6
+     /
+    5
+
+ */
 public class PostOrderTraversal {
 
     // Node class
