@@ -42,7 +42,7 @@ public class AdjacencyMatrixDFS {
         // Create an instance of the Solution class
         Solution solution = new Solution();
 
-        // Sample input
+        // Sample input for Graph
         int n = 6;
         int[][] edges = {
                 {0, 1},
