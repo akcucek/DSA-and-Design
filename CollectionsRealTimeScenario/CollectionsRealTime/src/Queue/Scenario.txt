@@ -1,0 +1,40 @@
+| Use Case                  | Producer            | Consumer                 |
+| ------------------------- | ------------------- | ------------------------ |
+| Email processing system   | Webhooks/forms      | Email sender service     |
+| Logging engine            | Application threads | Log writer thread        |
+| Video encoding pipeline   | Camera frames       | Encoder                  |
+| Payment processing system | Checkout flow       | Payment gateway executor |
+| IoT data ingestion        | Device telemetry    | Analytics processor      |
+
+
+Real-Time Use Case	Purpose of Queue
+Background job system	Tasks processed in FIFO order
+Live chat support	Users handled in queue order
+Event processing (clicks, logs)	Buffer for fast producers
+Notification system	Hold unsent messages
+Producer-consumer threads	Decouple work generation and execution
+Order handling	Keep orders in the right sequence
+Vehicle/traffic simulation	Simulate real-world waiting behavior
+
+
+BLOCKING QUEUE:
+
+| Real System                         | Description                                              |
+| ----------------------------------- | -------------------------------------------------------- |
+| Logging system                      | Multiple threads produce logs, one thread writes to file |
+| Messaging system (e.g., Kafka-like) | Producers push messages, consumers pull them             |
+| Order processing                    | Orders are added to queue and processed asynchronously   |
+| Email/sms sender                    | Queue outgoing messages to senders                       |
+| Web scraping                        | URLs pushed into queue, scraped by worker threads        |
+| Image processing pipeline           | Cameras push frames, consumers process them              |
+
+
+ABSTRACT QUEUE
+
+| Scenario                  | Custom Queue Behavior Needed         |
+| ------------------------- | ------------------------------------ |
+| Job scheduling system     | Task priority, retries, time windows |
+| Customer support queue    | VIP customers served earlier         |
+| Ad delivery system        | Highest bid shown first              |
+| Inventory reorder queue   | Time-sensitive stock actions         |
+| Emergency response system | Critical cases dispatched first      |

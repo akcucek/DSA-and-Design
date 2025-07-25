@@ -1,0 +1,9 @@
+| Use Case               | Why Use `ArrayList`?             |
+| ---------------------- | -------------------------------- |
+| Chat message buffer    | Keeps order of messages          |
+| Live timeline/feed     | Insert newest items dynamically  |
+| Stock price chart      | Ordered buffer of recent data    |
+| Sensor data collection | Sliding window of values         |
+| Shopping cart          | Dynamic, ordered item tracking   |
+| Notifications panel    | Rolling alerts history           |
+| Online test questions  | Fixed indexed access (Q1, Q2, …) |

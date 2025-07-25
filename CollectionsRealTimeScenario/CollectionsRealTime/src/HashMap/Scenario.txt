@@ -1,0 +1,22 @@
+| Use Case           | Key                 | Value                          |
+| ------------------ | ------------------- | ------------------------------ |
+| Session management | Session ID          | Session data                   |
+| Rate limiting      | User ID or IP       | Timestamps or request counters |
+| DNS cache          | Domain name         | IP address                     |
+| Stock ticker       | Stock/Crypto symbol | Latest price                   |
+| Multiplayer game   | Player ID           | Game state                     |
+| IoT device data    | Device ID           | Sensor data                    |
+| Chat server        | User ID             | WebSocket/session reference    |
+| E-commerce cache   | Product ID          | Product details                |
+
+
+Real-World Extensions:
+Feature	Implementation Idea
+Historical tracking	Use Map<String, List<PricePoint>>
+Price alerts	Notify if price crosses a threshold
+WebSocket updates	Push updates to frontend clients
+Integration with Kafka	Consume price updates from a stream
+REST API	Expose /price/{symbol} endpoint
+
+
+Specific implementation of one of these (e.g., chat server, game state, stock ticker)

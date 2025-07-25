@@ -1,0 +1,12 @@
+| Use Case                  | Real-Time Role          | HashSet Used To...             |
+| ------------------------- | ----------------------- | ------------------------------ |
+| Duplicate event detection | Message/event filtering | Track seen IDs                 |
+| Blacklist filtering       | Block malicious users   | Track banned IPs or users      |
+| Vote tracking             | Prevent abuse           | Track who already voted        |
+| Chat room membership      | User tracking           | Track online users per room    |
+| Feature toggles           | Dynamic app behavior    | Track who has access           |
+| Game zone tracking        | Spatial logic           | Track active players in a zone |
+| Product availability      | Fast lookup             | Track out-of-stock items       |
+
+Any of these into full runnable Java examples, or integrate them into a larger system
+(e.g., chat app, voting app, firewall)

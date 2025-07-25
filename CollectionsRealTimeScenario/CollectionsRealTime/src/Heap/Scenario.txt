@@ -1,0 +1,9 @@
+| Use Case                 | Heap Type | Description                     |
+| ------------------------ | --------- | ------------------------------- |
+| Task scheduling          | Max-heap  | High-priority jobs first        |
+| Top K elements           | Min-heap  | Maintain top N items            |
+| Event timers             | Min-heap  | Next event to trigger           |
+| Load balancing           | Min-heap  | Least busy server gets next job |
+| Shortest path (Dijkstra) | Min-heap  | Explore closest node            |
+| Real-time median         | Min + max | Dynamic median calculation      |
+| Auction system           | Max-heap  | Track current top bidder        |

@@ -1,0 +1,16 @@
+| Real-Time Use Case          | Why Use `LinkedList`                  |
+| --------------------------- | ------------------------------------- |
+| Undo/redo history           | Easy to push/pop operations           |
+| Browser navigation          | Traverse back and forth efficiently   |
+| Playlist queue              | Add/remove songs from both ends       |
+| Sliding window              | Constant insert/remove from head/tail |
+| LRU cache                   | Reorder list on access                |
+| Prioritized task management | Fast reordering or removals           |
+| Text editor buffer          | Insert/delete characters dynamically  |
+
+| App Type         | Undo Actions                 | Redo Actions             |
+| ---------------- | ---------------------------- | ------------------------ |
+| Text editors     | Typing, deleting, formatting | Reapplying changes       |
+| Drawing tools    | Strokes, fills               | Restore undone strokes   |
+| Spreadsheet apps | Cell edits, formula changes  | Redo after undoing edits |
+| IDEs             | Code edits, refactorings     | Restore undone edits     |
